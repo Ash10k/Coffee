@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ash.coffee.second"
+    android:id="@+id/root_lay"
+    android:background="@drawable/bicycle">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true">
+
+    <Button
+        android:background="#80000000"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minus"
+       android:layout_margin="10dp"
+        android:text="-"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:text="0"
+        android:drawableTint="#899a6c"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/binn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plus"
+        android:text="+"
+        android:layout_margin="10dp"
+        android:background="#80000000"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>
+    <!--#50FFFFFF-->
+    <TextView
+        android:drawableLeft="@drawable/curr"
+        android:drawableTint="#899a6c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="130dp"
+        android:text="00"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80000000"
+    android:textColor="#fff"
+    android:text="C'mon Don't Be So Mean Have Something"
+    android:layout_marginTop="30dp"
+    android:textSize="25sp"
+    android:paddingLeft="20dp"
+    android:id="@+id/error"
+
+    />
+</RelativeLayout>
